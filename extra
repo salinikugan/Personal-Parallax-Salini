@@ -1,0 +1,14 @@
+<div class="w3-bar w3-#dbb1cd ">
+  <a href="#Home" class="w3-bar-item w3-button">Home</a>
+  <a href="#Utah" class="w3-bar-item w3-button w3-hide-small">Utah</a>
+  <a href="#Figure Skating" class="w3-bar-item w3-button w3-hide-small">Figure Skating</a>
+  <a href="#Family" class="w3-bar-item w3-button w3-hide-small">Family</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-orange w3-hide w3-hide-large w3-hide-medium">
+  <a href="#Home" class="w3-bar-item w3-button">Home</a>
+  <a href="#Utah" class="w3-bar-item w3-button">Utah</a>
+  <a href="#Figure Skating" class="w3-bar-item w3-button">Figure Skating</a>
+  <a href="#Family" class="w3-bar-item w3-button">Family</a>
+</div>

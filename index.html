@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- title tag -->
+        <title>Salini's Life Story</title>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+        <!-- makes it mobile friendly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- w3.css -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- local w3.css <link rel="stylesheet" href="w3.css"> -->
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- meta description -->
+        <meta name="description" content="Help save and protect the famous Boston Harbor for generations to come.">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div style="color:lightsteelblue">
+                <div class="w3-bar w3-gray w3-left-align ">
+                    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-black" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                    <a href="#Home" class="w3-bar-item w3-button w3-hover-lightsteelblue"><i class="fa fa-home w3-margin-right"></i>Home</a>
+                    <a href="#Utah" class="w3-bar-item w3-button w3-hide-small w3-hover-lightsteelblue">Utah</a>
+                    <a href="#Figure Skating" class="w3-bar-item w3-button w3-hide-small w3-hover-lightsteelblue">Figure Skating</a>
+                    <a href="#Family" class="w3-bar-item w3-button w3-hide-small w3-hover-lightsteelblue">Family</a>
+
+                </div>
+            </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-theme-d5 w3-hide w3-hide-large w3-hide-medium">
+                <a href="#Home" class="w3-bar-item w3-button">Home</a>
+                <a href="#Utah" class="w3-bar-item w3-button">Utah</a>
+                <a href="#Figure Skating" class="w3-bar-item w3-button">Figure Skating</a>
+                <a href="#Family" class="w3-bar-item w3-button">Family</a>
+            </div>
+        </div>
+
+
+
+        <div class="bgimg-1">
+            <div class="caption" id="Home">
+                <span class="border">«My little Story» </span>
+            </div>
+        </div>
+
+        <div class="w3-container"id="Utah"></div>
+
+
+
+        <div style="color: #777;background-color:lightsteelblue;text-align:center;padding:50px 80px;text-align: justify;">
+            <h3 style="text-align:center;">Utah</h3>
+            <h4>‣Utah was a big part of my life.</h4>
+            <h3> Some Facts About Me:</h3>
+            <h4>‣I have been to most of the national parks in Utah.</h4>
+                            <h4>‣I used to live in Salt Lake City.</h4>
+                            <h4>‣I have been to the Salt flats in Utah.</h4>
+                            <h4>‣I have been to The Great Salt Lake.</h4>
+
+
+
+            <!-- Modal -->
+            <!-- Trigger/Open the Modal -->
+            <button onclick="document.getElementById('id01').style.display='block'"
+                    class="w3-button">Open Modal</button>
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Learn more about me!</button>
+
+            <div class="w3-modal"> 
+                <div class="w3-modal-content">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;
+                            <h3> Facts about me living in Utah</h3>
+                            <p>‣I have been to most of the national parks in Utah.</p>
+                            <p>‣I used to live in Salt Lake City.</p>
+                            <p>‣I have been to the Salt flats in Utah.</p>
+                            <p>‣I have been to The Great Salt Lake.</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgimg-2">
+            <div class="caption" id="Figure Skating">
+                <span class="border" style="background-color:transparent;font-size:35px;color: black;color: black">Figure Skating</span>
+            </div>
+        </div>
+
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:lightsteelblue;text-align:center;padding:50px 80px;text-align: justify;">
+                <h3 style="text-align:center;">Figure Skating</h3>
+                <h4>‣I have Skated for seven years.</h4>
+                <h4>‣Silver Star was the team I skated with.</h4>
+            </div>
+        </div>
+
+        <div class="bgimg-3">
+            <div class="caption"id="Family">
+                <span class="border" style="background-color:transparent;font-size:35px;color: black;">Family</span>
+            </div>
+        </div>
+
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:lightsteelblue;text-align:center;padding:50px 80px;text-align: justify;">
+                <h3 style="text-align:center;">Family</h3>
+                <h4>‣There are five members in my family</h4>
+                <h4> ‣I am the middle child</h4>
+            </div>
+        </div>
+
+        <div class="bgimg-1">
+            <div class="caption">
+                <span class="border">THANKS FOR LISTENING!!</span>
+            </div>
+        </div>
+
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("demo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+    </body>
+</html>
